@@ -1,6 +1,5 @@
 import Board from "./components/Board";
 import "./index.css";
-
 function App(){
   return(
     <div className = 'app'>
@@ -10,5 +9,4 @@ function App(){
 
   )
 }
-
 export default App;

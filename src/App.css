@@ -69,6 +69,30 @@
   transition: all 0.25s ease;
   cursor: pointer;
 }
+.priority {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Colors */
+.priority.low {
+  background: #22c55e;
+  color: white;
+}
+
+.priority.medium {
+  background: #facc15;
+  color: black;
+}
+
+.priority.high {
+  background: #ef4444;
+  color: white;
+}
 
 .task-card:hover {
   transform: scale(1.03);
