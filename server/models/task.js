@@ -7,6 +7,10 @@ const taskSchema = new mongoose.Schema({
   priority: {
     type: String,
     default: "low"
+  },
+  imageUrl: {
+    type: String,
+    default: null
   }
 });
 
