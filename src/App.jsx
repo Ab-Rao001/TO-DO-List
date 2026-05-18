@@ -28,10 +28,10 @@ function AppContent() {
         <h1 className='main-title'>My Task Board</h1>
         <div className="header-actions">
           <button onClick={() => setShowProfile(!showProfile)} className="profile-toggle">
-            👤 Profile
+            Profile
           </button>
           <button onClick={toggleTheme} className="theme-toggle">
-            {theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode'}
+            {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
           </button>
         </div>
       </header>
